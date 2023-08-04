@@ -1,0 +1,133 @@
+nav {
+  a {
+    img {
+      width: 100px;
+    }
+  }
+  .options {
+    align-items: baseline;
+    li {
+      padding-inline: 10px;
+      font-size: 0.75rem;
+    }
+    .avatar {
+      width: 50px;
+    }
+  }
+}
+
+header {
+  display: flex;
+
+  .genres {
+    display: flex;
+    margin-right: auto;
+    align-items: baseline;
+    ul {
+      list-style-type: none;
+    }
+    button {
+      width: 30px;
+    }
+  }
+}
+
+footer {
+  padding-inline: 400px;
+  .social {
+    display: flex;
+    a {
+      padding-inline: 10px;
+      font-size: 1.5rem;
+    }
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  .container {
+    .button {
+      width: 100px;
+      padding-inline: 0.25rem;
+      padding-top: 0.25rem;
+      vertical-align: middle;
+    }
+  }
+}
+
+header {
+  img {
+    width: 100px;
+  }
+}
+
+main {
+  .section {
+    width: 60%;
+    &:first-of-type {
+      padding-top: 90px;
+      display: flex;
+      justify-content: center;
+
+      margin-inline: auto;
+    }
+    &:nth-of-type(2) {
+      display: flex;
+      justify-content: center;
+
+      margin-inline: auto;
+    }
+    &:nth-of-type(3) {
+      padding-inline: 60%;
+    }
+
+    .title {
+      padding-inline-end: 200px;
+      font-size: 4rem;
+    }
+  }
+
+  .row {
+    .avt {
+      text-align: end;
+
+      img {
+        width: 60%;
+      }
+    }
+    ul {
+      list-style-type: none;
+      padding-inline-start: unset;
+    }
+  }
+  .footer {
+    text-align: center;
+  }
+}
+
+.card {
+  span {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    border-radius: unset;
+  }
+}
+
+.settings {
+  width: 900px;
+  margin-inline: auto;
+}
+
+.membership {
+  .col-4 {
+    div {
+      width: 200px;
+    }
+  }
+}
+
+.settings {
+  a {
+    color: #7aa5d1;
+  }
+}
