@@ -5,7 +5,6 @@ nav .options {
   align-items: baseline;
 }
 nav .options li {
-  padding-inline: 10px;
   font-size: 0.75rem;
 }
 nav .options .avatar {
