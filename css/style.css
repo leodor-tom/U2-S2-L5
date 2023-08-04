@@ -86,7 +86,10 @@ main .footer {
   text-align: center;
 }
 
-.card span {
+.prewiew {
+  position: relative;
+}
+.prewiew span {
   position: absolute;
   left: 0px;
   bottom: 10px;
